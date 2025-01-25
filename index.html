@@ -11,16 +11,16 @@
     <div id="main">
         <div id="box1"><h1>Calculator</h1>
             <label class="l">Enter 1st value:</label>
-            <input type="text" id="a" class="input" placeholder="10" minlength="1" maxlength="4"><br><br>
+            <input type="text" id="a" class="input" minlength="1" maxlength="4" required><br><br>
             <label class="l">Enter 2nd value:</label>
-            <input type="text" id="b" class="input" placeholder="20" minlength="1" maxlength="4">
+            <input type="text" id="b" class="input" minlength="1" maxlength="4" required>
             <div class="but">
                 <button id="b1" class="b" onclick="add()">+</button>
                 <button id="b2" class="b" onclick="sub()">-</button>
                 <button id="b3" class="b" onclick="mul()">*</button>
                 <button id="b4" class="b" onclick="div()">/</button>
                 <button id="b4" class="b" onclick="mod()">%</button>
-            </div>
+            </div><hr>
             <h2>Answer is  <span id="res"></span></h2>
         </div>
     </div>

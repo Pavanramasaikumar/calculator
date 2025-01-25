@@ -25,7 +25,12 @@ function sub() {
 }
 function div() {
     getInputValues();
-    r=a/b;
+    if(b==0){
+        r="division is not posible";
+    }
+    else{
+        r=a/b;
+    }
     update();
 }
 function mod() {
