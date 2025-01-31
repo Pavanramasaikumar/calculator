@@ -13,3 +13,6 @@ function equaldis(){
         display.value="error";
     }
 }
+function onestepback(){
+    display.value=display.value.slice(0,-1);
+}
